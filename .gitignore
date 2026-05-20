@@ -19,5 +19,8 @@ Thumbs.db
 *.log
 logs/
 
+# Local preparation files
+preperation/
+
 #pyc
 *.pyc

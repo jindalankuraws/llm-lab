@@ -1,0 +1,19 @@
+# Pinned dependencies for llm-lab.
+# Bump versions deliberately via Dependabot PRs, not by editing this file directly.
+
+# Core web framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# Request/response validation
+pydantic==2.9.2
+
+# AWS SDK (Bedrock client)
+boto3==1.35.36
+botocore==1.35.36
+
+# Anthropic SDK
+anthropic==0.42.0
+
+# Environment variable management
+python-dotenv==1.0.1
